@@ -10,7 +10,7 @@ const Home = () => (
         <Container className='introduccion'>
             <Row className="my-4 text-center">
                 <Col>
-                    <h2>Bienvenido a O Forcado 2!</h2>
+                    <h1>Bienvenido a O Forcado 2!</h1>
                     <p>
                         Disfruta de nuestra gran variedad de cafés, infusiones y chocolates al lado del mar.
                     </p>
