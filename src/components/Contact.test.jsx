@@ -24,10 +24,10 @@ test('allows the user to fill out the form', () => {
     // Simulamos entrada del usuario
     fireEvent.change(inputEmail, { target: { value: 'test@example.com' } });
     fireEvent.change(inputName, { target: { value: 'Test User' } });
-    fireEvent.change(inputMessage, { target: { value: 'Hello, World!' } });
+    fireEvent.change(inputMessage, { target: { value: 'Test message' } });
 
     // Verificamos que los campos del formulario se hayan llenado
     expect(inputEmail.value).toBe('test@example.com');
     expect(inputName.value).toBe('Test User');
-    expect(inputMessage.value).toBe('Hello, World!');
+    expect(inputMessage.value).toBe('Test message');
 });
